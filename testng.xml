@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" parallel="tests" thread-count="2">
+    <test name="Test1" thread-count="5">
+        <classes>
+            <class name="uk.co.automationtesting.AddRemoveItemBasketTest"/>
+        </classes>
+    </test>
+    <test name="Test2" thread-count="5">
+        <classes>
+            <class name="uk.co.automationtesting.OrderCompleteTest"/>
+        </classes>
+    </test>
+
+</suite>
+<!-- parallel="tests" thread-count="2" -->
